@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*  Мои стили */
+body {
+    font-family: "Raleway", sans-serif;
+    color: #14213D;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    background: #E5E5E5;
+    height: 1720px;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 50px auto;
+}
+
+.header {
+    margin-top: 27px;
+    padding-top: 10px;
+    gap: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.header nav ul {
+    gap: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #14213D;
+}
+header nav ul li:not(.btn) a:hover {
+    border-bottom: 3px solid #14213D;
+}
+
+header nav ul li.btn a {
+    background: #FCA311;
+    padding: 10px 38px;
+    border-radius: 56px;
+}
+.hero {
+    padding-bottom: 100px;
+}
+.hero-text {
+    width: 502px;
+    padding-top: 85px;
+    margin-left: 43px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-family: "Raleway ExtraBold", sans-serif;
+}
+
+.hero-text p {
+    line-height: 32px;
+    margin: 24px 0;
+}
+
+.hero-text button {
+    background: #FCA311;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 38px;
+    border: none;
+    transition: all 500ms ease;
+}
+.hero-text .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.hero img {
+    position: absolute;
+    top: 130px;
+    right: 225px;
+}
+
+.img2 {
+    position: absolute;
+    top: 642px;
+    right: 225px;
+}
+
+.block3 h1 {
+    text-align: center;
+}
+
+.service-icon{
+    width:86px;height:86px;
+    margin:0 auto 10px;
+    border-radius:18px;
+    border:3px solid var(--accent);
+    background:#fff;
+    display:grid;
+    place-items:center;
+}
+.services{
+    background:#fff;
+    padding:40px 0 56px;
+}
+.center{text-align:center}
+.services h2{
+    font-size:28px;
+    font-weight:800;
+    margin:0 0 24px;
+    text-align:center;
+}
+.services-grid{
+    display: flex;
+    justify-content: center;
+    gap:64px;
+}
+.service-card{
+    width: 168px;
+    height: 168px;
+    background-color: #FCA311;
+    border-radius:16px;
+    padding:18px 14px 20px;
+    text-align:center;
+    transition:transform .18s ease, box-shadow .18s ease;
+}
+.service-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 24px rgba(20,33,61,.12);
+}
+.service-icon{
+    width:112px;height:112px;
+    margin:30px;
+    border-radius:100%;
+    border:3px solid var(--accent);
+    background:#E5E5E5;
+    display:grid;
+    place-items:center;
+}
+.service-icon svg{
+    width:58px;height:58px;display:block;
+}
+.service-card h3{
+    font-size:16px;
+    font-weight:700;
+}
+
+.services-icon{
+    padding: 30px;
+}
+
+.services-block h3 {
+    text-align: center;
+    margin-top: 16px;
+    font-size: 24px;
+    font-family: "Raleway SemiBold", sans-serif;
+}
+
+.block3 h1 {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 0 0 24px;
+    text-align: center;
+}
+.feedback{
+    background:#fff;
+    border-radius:16px;
+    padding:18px;
+    box-shadow:0 8px 28px rgba(20,33,61,.10);
+}
+.feedback fieldset{border:0;margin:0;padding:0}
+.field{
+    display:block;margin-bottom:14px;
+}
+.field span{
+    display:block;font-size:14px;margin:0 0 6px;font-weight:600;
+}
+.field input,
+.field textarea{
+    width:347px;
+    background:#fff;
+    border:1.5px solid rgba(20,33,61,.18);
+    border-radius:10px;
+    padding:12px 14px;
+    font:inherit;color:inherit;
+
+}
+.field input:focus,
+.field textarea:focus{
+    outline:0;border-color:var(--accent);
+    box-shadow:0 0 0 3px rgba(252,163,17,.2);
+}
+.agree{
+    display:flex;align-items:center;gap:8px;
+    font-size:14px;margin:8px 0 14px;
+}
+.agree input{width:18px;height:18px}
+
+
+.socials{
+    display:flex;gap:12px;align-items:center;
+}
+.social{
+    width:44px;height:44px;
+    background:#fff;
+    border-radius:50%;
+    display:grid;place-items:center;
+    border:1px solid rgba(20,33,61,.15);
+    transition:transform .15s ease, background .15s ease;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.style {
+    background: #e5e5e5;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.btn2 {
+    background: #FCA311;
+    padding: 10px 38px;
+    border-radius: 56px;
+    border: none;
+    width: 100%;
+
+}
+
+.style .btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.style h1{
+    font-family: "Raleway SemiBold";
+    text-align: center;
+    padding: 10px;
+}
+
+.chip-value {
+    border: 2px solid #14213D;
+    border-radius: 40px;
+    padding: 4px 16px;
+    font-family: "Raleway SemiBold", sans-serif;
+    font-size: 20px;
+    width: min-content;
+}
+
+.site-footer{
+    background:#14213D;
+    color:#dbe1f5;
+    padding:18px 0;
+}
+.footer-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
+}
+.footer-logo img{height:28px;width:auto;display:block}
+.footer-nav ul{display:flex;gap:16px}
+.footer-nav a{color:#dbe1f5;font-weight:600}
+.footer-nav a:hover{opacity:.85}
+
+/* ====== Small tweaks for narrow screens (optional) ====== */
+@media (max-width: 920px){
+    .services-grid{grid-template-columns: repeat(3,1fr)}
+    .hero, .about{grid-template-columns:1fr}
+    .contacts-grid{grid-template-columns:1fr}
+    .footer-row{flex-direction:column;align-items:flex-start}
+}
+@media (max-width: 560px){
+    .services-grid{grid-template-columns: repeat(2,1fr)}
+}
+
+.contact{
+    width: 502px;
+}
+
+.contact h1{
+    font-size: 36px;
+    font-family: "Raleway ExtraBold", sans-serif;
+}
+
+.chip-title {
+    margin: 20px 0;
+}
+
+.obolochka {
+    position: relative;
+}
+
+.footer img {
+    width: 100vw;
+    margin-bottom: -4px;
+}
+
+/* ===============================
+   1️⃣ АНИМАЦИИ "НАШИ УСЛУГИ"
+   =============================== */
+
+/* Плавное появление карточек */
+.services-block {
+    opacity: 0;
+    transform: translateY(80px);
+    animation: serviceEnter 0.8s ease-out forwards;
+}
+.services-grid .services-block:nth-child(1) { animation-delay: 0.2s; }
+.services-grid .services-block:nth-child(2) { animation-delay: 0.4s; }
+.services-grid .services-block:nth-child(3) { animation-delay: 0.6s; }
+.services-grid .services-block:nth-child(4) { animation-delay: 0.8s; }
+.services-grid .services-block:nth-child(5) { animation-delay: 1s; }
+
+@keyframes serviceEnter {
+    0% {
+        opacity: 0;
+        transform: translateY(80px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ОДНОКРАТНОЕ вращение иконки при наведении */
+.service-card:hover .service-icon img {
+    animation: spinOnce 0.8s ease-in-out;
+}
+
+@keyframes spinOnce {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+
+/* ===============================
+   2️⃣ АНИМАЦИЯ СОБАКИ (выглядывает справа налево)
+   =============================== */
+
+/* изначально собака за блоком справа */
+.obolochka .dog {
+    position: absolute;
+    z-index: -1;
+    right: 130px;
+    bottom: 0;
+    animation: dogPeekSide 10s ease-in-out infinite;
+}
+
+/* выглядывает и возвращается */
+@keyframes dogPeekSide {
+    0% {
+        transform: translateX(0); /* спрятана */
+    }
+    90% {
+        transform: translateX(-150px); /* выглядывает */
+    }
+    100% {
+        transform: translateX(0); /* быстро прячется */
+    }
+}
+
+
+/* ===============================
+   3️⃣ КНОПКА "НАВЕРХ"
+   =============================== */
+#toTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #FCA311;
+    color: #fff;
+    border: none;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+#toTop.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+#toTop:hover {
+    background: #14213D;
+    transform: scale(1.1);
+}
+/* ====== Тест "Какая собака вам подходит" ====== */
+.dog-test {
+    background: #e5e5e5;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 80px;
+}
+
+.dog-test h1 {
+    text-align: center;
+    font-family: "Raleway ExtraBold", sans-serif;
+    font-size: 36px;
+    margin-bottom: 8px;
+}
+
+.dog-test .subtitle {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #14213D;
+}
+
+.quiz-form .question {
+    background: #fff;
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 24px rgba(20,33,61,0.08);
+}
+
+.quiz-form h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #14213D;
+    font-weight: 700;
+}
+
+.quiz-form label {
+    display: block;
+    font-size: 18px;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.quiz-form input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #FCA311;
+    transform: scale(1.2);
+}
+
+.quiz-form .btn2 {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    background: #FCA311;
+    color: #fff;
+    border: none;
+    border-radius: 56px;
+    padding: 12px;
+    transition: all 0.3s ease;
+}
+
+.quiz-form .btn2:hover {
+    background: #14213D;
+    transform: scale(1.05);
+}
+
+.quiz-result {
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0 8px 24px rgba(20,33,61,0.08);
+    animation: fadeIn 0.7s ease forwards;
+}
+
+.quiz-result.hidden {
+    display: none;
+}
+
+.quiz-result h2 {
+    font-family: "Raleway ExtraBold", sans-serif;
+    font-size: 28px;
+    color: #14213D;
+    margin-bottom: 10px;
+}
+
+.quiz-result p {
+    font-size: 20px;
+    color: #14213D;
+    line-height: 1.4;
+}
+
+.quiz-result img {
+    margin-top: 20px;
+    max-width: 240px;
+    border-radius: 16px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.quiz-result {
+    background: #fefefe;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(20,33,61,0.1);
+    padding: 24px;
+    margin-top: 32px;
+    text-align: center;
+    transition: all 0.4s ease;
+}
+.quiz-result.hidden {
+    display: none;
+}
+.quiz-result h2 {
+    font-family: "Raleway SemiBold", sans-serif;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+.quiz-result p {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.question.error {
+    border: 2px solid #ff4d4d !important;
+    animation: blink 0.6s ease-in-out 2;
+}
+
+@keyframes blink {
+    0%,100% { background: #fff; }
+    50% { background: #ffe5e5; }
+}

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reset.css"/>
+    <link rel="stylesheet" type="text/css" href="old_style_doggydoc.css"/>
+    <title>DoggyDoc</title>
+</head>
+
+<body>
+    <header class="container header">
+        <img class="logo"
+             src="img/doggydoclogo.svg"
+             alt="DoggyDoc Logo">
+        <nav>
+            <ul>
+                <li class="active"><a href="#home">О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#specialists">Специалисты</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div class="wrapper">
+    <div id="home" class="hero container">
+        <div class="hero-text">
+            <h1>Ваш надёжный партнёр в заботе о собачьем здоровье</h1>
+            <p>
+                Сделаем все возможное, чтобы ваш любимец чувствовал себя здоровым, счастливым и <br>полным энергии.
+            </p>
+            <button class="btn">Записаться на приём</button>
+        </div>
+        <img class="hero-img" src="img/img%20hero.svg" alt="hero-img">
+    </div>
+        <div id="specialists" class="block2">
+            <div class="container"></div>
+                <div class="hero-text">
+                <h1>DoggyDoc - место, где ваша собака будет в надежных руках</h1>
+                <p>
+                    Наша команда заботливо относится к каждому пациенту, предоставляя индивидуальный <br>подход к лечению и профессиональный уход.
+                </p>
+                <p>
+                    Мы стремимся к тому, чтобы каждое <br>посещение клиники было приятным <br>и комфортным.
+                </p>
+                    <button class="btn">Подробнее</button>
+                </div>
+            <img class="img2" src="img/Group%2036.svg" alt="Group 36">
+
+        </div>
+        <div id="services" class="block3">
+            <div class="container">
+                <div class="text">
+                    <h1>Наши услуги</h1>
+                </div>
+                <div class="services-grid">
+                    <!-- Плановый осмотр -->
+                    <div class="services-block">
+                        <article class="service-card">
+                            <div class="service-icon" aria-hidden="true">
+                                <!-- Clipboard icon -->
+                                <img src="img/health-check%201.svg" alt="">
+                            </div>
+                        </article>
+                        <h3>Плановый осмотр</h3>
+                    </div>
+
+                    <!-- Анализы -->
+                    <div class="services-block">
+                        <article class="service-card">
+                            <div class="service-icon" aria-hidden="true">
+                                <!-- Test tubes -->
+                                <img alt='' src="img/test-tube%201.svg">
+                            </div>
+                        </article>
+                        <h3>Анализы</h3>
+                    </div>
+
+                </div>
+            </div>
+            <div class="services-grid">
+                <!-- Разовый приём -->
+                <div class="services-block">
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <!-- Stethoscope -->
+                            <img src="img/stethescope%201.svg" alt="">
+                        </div>
+                    </article>
+                    <h3>Разовый приём</h3>
+                </div>
+                <!-- Вакцинация -->
+                <div class="services-block">
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <!-- Syringe -->
+                            <img alt='' src="img/injection%201.svg">
+                        </div>
+                    </article>
+                    <h3>Вакцинация</h3>
+                </div>
+                <!-- Физиопроцедуры -->
+                <div class="services-block">
+                    <article class="service-card">
+                        <div class="service-icon" aria-hidden="true">
+                            <!-- Dumbbell -->
+                            <img src="img/medical%201.svg" alt="">
+                        </div>
+                    </article>
+                    <h3>Физиопроцедуры</h3>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="contacts" class="block4">
+            <div class="socials" aria-label="Социальные сети">
+            </div>
+                <div class="container">
+            <div class='forms'>
+                <div class="contact">
+                    <h1>Контакты</h1>
+                    <div class="chip-title">Электронная почта</div>
+                    <br>
+                    <div class="chip-value">doggydoc@yandex.ru</div>
+                </div>
+                <div class="obolochka">
+
+                    <div class="style">
+
+                        <h1>Форма обратной связи</h1>
+
+                        <label class="field">
+                            <span>Ваше имя</span>
+                            <input type="text" name="name" required placeholder="Иван" />
+                        </label>
+
+                        <label class="field">
+                            <span>Номер телефона</span>
+                            <input type="tel" name="phone" required placeholder="+7 (___) ___‑__‑__" />
+                        </label>
+
+                        <label class="field">
+                            <span>Комментарий</span>
+                            <textarea name="comment" rows="4" placeholder="Опишите запрос"></textarea>
+                        </label>
+
+                        <label class="agree">
+                            <input type="checkbox" name="agree" required />
+                            <span>Я даю согласие на обработку персональных данных</span>
+                        </label>
+
+                        <button class="btn2">Отправить</button>
+                    </div>
+                    <img alt='' src="img/Group%2037.png" class="dog">
+                </div>
+            </div>
+            </div>
+        </div>
+
+    <section class="dog-test container">
+        <h1>Какая собака вам подходит?</h1>
+        <p class="subtitle">Ответьте на 7 вопросов — и узнайте, какая порода станет вашим идеальным другом!</p>
+
+        <form id="dogQuiz" class="quiz-form">
+            <!-- Вопросы -->
+            <div class="question">
+                <h3>1. Какой у вас образ жизни?</h3>
+                <label><input type="radio" name="q1" value="active"> Активный, люблю прогулки и спорт 🏃‍♂️</label>
+                <label><input type="radio" name="q1" value="home"> Спокойный, предпочитаю уют дома 🛋️</label>
+                <label><input type="radio" name="q1" value="balanced"> Что-то среднее ⚖️</label>
+            </div>
+
+            <div class="question">
+                <h3>2. Где вы живёте?</h3>
+                <label><input type="radio" name="q2" value="flat"> В квартире 🏢</label>
+                <label><input type="radio" name="q2" value="house"> В частном доме 🏠</label>
+                <label><input type="radio" name="q2" value="country"> За городом 🌳</label>
+            </div>
+
+            <div class="question">
+                <h3>3. Сколько времени вы готовы уделять питомцу?</h3>
+                <label><input type="radio" name="q3" value="a_lot"> Много — каждый день ⏰</label>
+                <label><input type="radio" name="q3" value="medium"> Средне 🕒</label>
+                <label><input type="radio" name="q3" value="little"> Немного 💤</label>
+            </div>
+
+            <div class="question">
+                <h3>4. Есть ли у вас дети?</h3>
+                <label><input type="radio" name="q4" value="yes"> Да 👶</label>
+                <label><input type="radio" name="q4" value="no"> Нет 🚫</label>
+                <label><input type="radio" name="q4" value="sometimes"> Иногда бывают 🤷‍♂️</label>
+            </div>
+
+            <div class="question">
+                <h3>5. Какой размер собаки вам ближе?</h3>
+                <label><input type="radio" name="q5" value="small"> Маленькая 🐕‍🦺</label>
+                <label><input type="radio" name="q5" value="medium"> Средняя 🐶</label>
+                <label><input type="radio" name="q5" value="large"> Крупная 🐕</label>
+            </div>
+
+            <div class="question">
+                <h3>6. Что для вас главное в собаке?</h3>
+                <label><input type="radio" name="q6" value="intelligence"> Ум и сообразительность 🧠</label>
+                <label><input type="radio" name="q6" value="affection"> Ласка и привязанность ❤️</label>
+                <label><input type="radio" name="q6" value="energy"> Энергия и весёлость ⚡</label>
+            </div>
+
+            <div class="question">
+                <h3>7. Какой характер вам ближе?</h3>
+                <label><input type="radio" name="q7" value="calm"> Спокойный 😌</label>
+                <label><input type="radio" name="q7" value="energetic"> Энергичный 🏃</label>
+                <label><input type="radio" name="q7" value="independent"> Независимый 🐾</label>
+            </div>
+
+
+            <button type="submit" class="btn2">Узнать результат</button>
+        </form>
+        <div id="quizResult" class="quiz-result hidden">
+            <h2>Вам подойдёт:</h2>
+            <p id="dogType"></p>
+        </div>
+
+    </section>
+    <div class="footer">
+        <img alt='' src="img/Group%2038.svg">
+    </div>
+    <div class="site-footer">
+        <div class="container footer-row">
+            <a class="footer-logo" href="#home">
+                <img src="img/Group%2024.svg" alt="DoggyDoc" />
+            </a>
+
+            <nav class="footer-nav" aria-label="Навигация в подвале">
+                <ul>
+                    <li><a href="#home">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#specialists">Специалисты</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+
+            <div class="copy muted">© Создатели сайта, 2024 • DoggyDoc</div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("dogQuiz").addEventListener("submit", function(e) {
+            e.preventDefault();
+
+            const form = document.getElementById("dogQuiz");
+            const questions = ["q1","q2","q3","q4","q5","q6","q7"];
+            let missing = [];
+
+            // Снимаем прошлые подсветки
+            document.querySelectorAll(".question").forEach(q => q.classList.remove("error"));
+
+            // Проверяем наличие ответов
+            questions.forEach((q, index) => {
+                const block = form.querySelector(`.question:nth-child(${index + 1})`);
+                if (!form.querySelector(`input[name="${q}"]:checked`)) {
+                    missing.push(index + 1);
+                    block.classList.add("error");      // подсветка
+                }
+            });
+
+            const resultBlock = document.getElementById("quizResult");
+            const resultText = document.getElementById("dogType");
+
+            // Если не все заполнены — выводим предупреждение
+            if (missing.length > 0) {
+                resultText.textContent = `⚠ Вы не ответили на вопросы: ${missing.join(", ")}. Пожалуйста, вернитесь и выберите ответы.`;
+                resultBlock.classList.remove("hidden");
+                resultBlock.scrollIntoView({ behavior: "smooth" });
+                return;
+            }
+
+            // Подсчёт баллов
+            const data = new FormData(this);
+            const scores = { sporty: 0, calm: 0, smart: 0 };
+
+            for (let [, value] of data.entries()) {
+                switch (value) {
+                    case "active":
+                    case "a_lot":
+                    case "energy":
+                    case "energetic":
+                    case "house":
+                        scores.sporty++; break;
+
+                    case "home":
+                    case "calm":
+                    case "affection":
+                    case "flat":
+                    case "little":
+                        scores.calm++; break;
+
+                    case "balanced":
+                    case "independent":
+                    case "intelligence":
+                    case "medium":
+                    case "country":
+                        scores.smart++; break;
+                }
+            }
+
+            // Результат
+            let result = "";
+            if (scores.sporty >= scores.calm && scores.sporty >= scores.smart) {
+                result = "🐕 Вам подойдёт активная собака — бордер-колли, лабрадор, джек-рассел!";
+            } else if (scores.calm >= scores.sporty && scores.calm >= scores.smart) {
+                result = "🐶 Вам подойдёт спокойная и ласковая порода — мопс, бульдог, кавалер-кинг-чарльз!";
+            } else {
+                result = "🧠 Вам подойдёт умная собака — шиба-ину, пудель, австралийская овчарка!";
+            }
+
+            resultText.textContent = result;
+            resultBlock.classList.remove("hidden");
+            resultBlock.scrollIntoView({ behavior: "smooth" });
+        });
+
+    </script>
+
+
+
+</body>
+</html>
